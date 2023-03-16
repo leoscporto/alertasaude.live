@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Deus</title>
+    <title>Ganhando Com Músicas</title>
     
     <style type="text/css">
       header {
@@ -28,7 +28,78 @@
     </style>
     
     
-     
+     <script>
+        (function(b) {
+            var a = {
+                version: "0.0.1",
+                history_api: typeof history.pushState !== "undefined",
+                init: function() {
+                    b.location.hash = "#no-back";
+                    a.configure();
+                },    
+                hasChanged: function() {
+                    if (b.location.hash == "#no-back") {
+                        b.location.hash = "#";
+                        b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                    }
+                },
+                checkCompat: function() {
+                    if (b.addEventListener) {
+                        b.addEventListener("hashchange", a.hasChanged, false);
+                    } else {
+                        if (b.attachEvent) {
+                            b.attachEvent("onhashchange", a.hasChanged);
+                        } else {
+                            b.onhashchange = a.hasChanged;
+                        }
+                    }
+                },
+                configure: function() {
+                    if (b.location.hash == "#no-back") {
+                        if (this.history_api) {
+                            history.pushState(null, "", "#");
+                        } else {
+                            b.location.hash = "#";
+                            b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                        }
+                    }
+                    a.checkCompat();
+                    a.hasChanged();
+                }
+            };
+            if (typeof define === "function" && define.amd) {
+                define(function() {
+                    return a;
+                });
+            } else {
+                if (typeof module === "object" && module.exports) {
+                    module.exports = a;
+                } else {
+                    b.noback = a;
+                }
+            }
+            a.init();
+        }(window));
+    </script>
+
+    
+    <script>
+(function() {
+     const utmParamQueryString = new URLSearchParams(window.location.search);
+     if (utmParamQueryString.toString()) {
+          var navLinks = document.querySelectorAll('a');
+          navLinks.forEach(function(item) {
+               if (item.href.indexOf("go.perfectpay.com.br") !== -1) {
+                    if (item.href.indexOf('?') === -1) {
+                         item.href += '?' + utmParamQueryString.toString();
+                    } else {
+                         item.href += '&' + utmParamQueryString.toString();
+                    }
+               }
+          });
+     }
+})();
+</script>
     
    
     
@@ -130,25 +201,21 @@ src="https://www.facebook.com/tr?id=3461309434100026&ev=PageView&noscript=1"
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <!-- Imagem Ultrasecreto -->
-            <img class="img-fluid" src="./assets/img/ultrasecreto_vermelho-removebg-preview.png">
+            <img class="img-fluid" src="./assets/img/ultra_secreto_vermelho-removebg-preview.png">
 
             <!-- Headline -->
-            <h3 class="my-4"><b>Descubra escrituras antigas que te ajudam a ser mais próximo de Deus</b></h3>
+            <h3 class="my-4"><b>APLICATIVO HOMOLOGADO FAZ PESSOAS COMUNS GANHAREM COM PESQUISAS</b></h3>
            
 
             <!-- VSL -->
-
-            <p> Descubra escrituras antigas que te ajudam a se tornar uma pessoa mais íntima de Deus. Dentro dessas escrituras você terá acesso a orações secretas e técnicas de meditação que te ajudam a ter um contato mais próximo de Deus.</p>
-            <p>Você receberá acesso ao conteúdo dessas orações secretas via EBOOK, que você receberá em seu EMAIL após sua compra, logo, esse é um produto digital! Facilitando o envio do produto (que e feito apenas pelo email) e também o passo a passo do reembolso</p>
-            <p> Contato: +55 31 945683256 - Email:ajudasuporteperguntas@gmail.com</p>
-
-            <p>Loja Divino Luxo, CNPJ 39.504.571/0001-32, Av Juscelino Kubitschek, Londrina, Paraná, Brasil</p>
-
+<div id="vid_640e5072abc4570009e6782f" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_640e5072abc4570009e6782f" src="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/640e5072abc4570009e6782f/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_640e5072abc4570009e6782f" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_640e5072abc4570009e6782f">var s=document.createElement("script");s.src="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/640e5072abc4570009e6782f/player.js",s.async=!0,document.head.appendChild(s);</script>            
+            
+            <p><font size="-1">🔥 Seu acesso ao APP será liberado no final dessa apresentação curta </p>
             
             <!-- Botão 1 -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/u7urMY5" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO GARANTIR MINHA VAGA!</span>
+              <a href="https://go.perfectpay.com.br/PPU38CL5AJ0?&utm_perfect=direto" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO SACAR MEUS R$500 AGORA!</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
             </div>
@@ -159,22 +226,400 @@ src="https://www.facebook.com/tr?id=3461309434100026&ev=PageView&noscript=1"
     
    
 
-   
-<footer class="bg-dark py-3 text-center">
-<div class="text-white">
-<a href="https://oracaoedeus.live/termos" class="text-white">Termos de Uso</a> |
-<a href="https://oracaoedeus.live/privacidade" class="text-white">Política de Privacidade</a>
-</div>
-</footer>
-<script type="text/javascript">
-      setTimeout(() => {
-        document.getElementById("cta1").classList.remove("d-none");
-        document.getElementById("cta2").classList.remove("d-none");
-      }, 00); // temporização da Call to Action (em milissegundos)
+    <section class="comments py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="fb-comments" style="margin-top: 5px;">
+              <div class="fb-comments-header">
+                <span>21 comentarios</span>
+              </div>
+              <div class="fb-comments-wrapper" id="2">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m2.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Marta Horta</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Que bom que no final do vídeo ele liberou o acesso ao aplicativo! Esse passo a passo é incrível!  Nunca tinha pensado nisso antes 😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍8</likes>
+                        
+                        <date>4 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="3">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/homem-7.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Vitor Costa</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Aplicativo muito simples de usar! Estou usando a 5 dias e já fiz mais de 480 reais! </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍9</likes>
+                        
+                        <date>5 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="4">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m4.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Marina Silva</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Eu era faxineira em uma escola há 17 anos e ganahva um salário mínimo por mês, graças a esse aplicativo agora estou ganhando mais de 4 mil reais por mês respondendo pesquisas em casa </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍11</likes>
+                        
+                        <date>12 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="5">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/homem-8.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Julio Castro</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Meus Deus! Esse aplicativo é muito bom! Muito fácil de usar!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍15</likes>
+                        
+                        <date>19 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="6">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m6.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Isabella Lopes</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Muito obrigada! Estava com a conta no vermelho e usando esse aplicativo, em menos de 2 meses consegui quitar minhas contas 😘😘😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍17</likes>
+                        
+                        <date>24 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="7">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m7.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Roberta Gomes</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Muito bom!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍18</likes>
+                        
+                        <date>26 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="9">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/homem-9.jpg">
+                      </td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Rafael Campos</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text"> Trabalhava como motorista de ônibus, um emprego muito ruim, trânsito, reclamações o dia todo.... Estou usando esse aplicativo secreto há 4 meses e já pude sair do meu emprego</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>👍22</likes>
+                        
+                        <date>39 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
+              <div style="display:none" id="more">
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="10">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m12.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Ana Sofia</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">😍😍😍</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>👍41</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="11">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m15.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Laura Francisca</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Obrigado por me dar acesso ao aplicativo 🙏🙏🙏🙏🙏🙏</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>👍40</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="12">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m16.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Daniela Costa</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Estou ganhando mais de 1.000 por semana usando essas dicas ..🌹🥰🙋</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>👍47</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="13">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m17.jpeg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Juliana Dias</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Incrível</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>👍50</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="14">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/homem-10.jpg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Marcos Laureano</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Estou dando uma vida melhor para minha família graças a esse aplicativo rsrs</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>👍66</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Botão 2 -->
+            <div id="cta2" class="mt-4 d-none">
+              <a href="https://go.perfectpay.com.br/PPU38CL5AJ0?&utm_perfect=direto" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO SACAR MEUS R$500 AGORA!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark py-3 text-center">
+      <div class="text-white"><a href="termosprodutosdegraca.html" class="text-white">Termos de Uso</a> | <a href="privacidadeprodutosdegraca.html" class="text-white">Política de Privacidade</a> 
+        </div>
+        
+       <div class="grid-container">
+        <p> <font size="-2" >Aviso:Os valores acima são meramente ilustrativos, trata-se de valores alcançados por alguns usuários, logo é plenamente possível alcançar entre R$300 a R$650 reais por dia, entretanto, o valor pode variar conforme a utilização por cada usuário, bem como a disponibilidade de músicas por dia.</p></font></div>
+      <p> <font size="-2" >*Bônus iniciais em valores de saldo podem ser concedidos periodicamente, o saque dos bônus seguem as regras de saques descritas nos termos de uso do web app. <p>
+    </div>
+        </footer>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 770000); // temporização da Call to Action (em milissegundos)
     </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="./assets/js/com.js"></script>
-</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
+  </body>
 </html>
