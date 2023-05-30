@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Recentes Descobertas - texto apeanas informativo</title>
+    <title>Emagrecimento </title>
     
     <style type="text/css">
       header {
         color: white;
-        background-image: url("assets/img/istock-601370366.jpg");
-        background-color: rgba(0, 0, 0, 0.6);
+        ;
+        background-color: rgba(0, 0, 0, 0.0);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -27,45 +27,143 @@
       }
     </style>
     
-   
-<script data-obct type = "text/javascript">
-  /** DO NOT MODIFY THIS CODE**/
-  !function(_window, _document) {
-    var OB_ADV_ID = '00635682c534eb86cc38c9fbb1c904baea';
-    if (_window.obApi) {
-      var toArray = function(object) {
-        return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
-      };
-      _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
-      return;
-    }
-    var api = _window.obApi = function() {
-      api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
-    };
-    api.version = '1.1';
-    api.loaded = true;
-    api.marketerId = OB_ADV_ID;
-    api.queue = [];
-    var tag = _document.createElement('script');
-    tag.async = true;
-    tag.src = '//amplify.outbrain.com/cp/obtp.js';
-    tag.type = 'text/javascript';
-    var script = _document.getElementsByTagName('script')[0];
-    script.parentNode.insertBefore(tag, script);
-  }(window, document);
+    
+     <script>
+        (function(b) {
+            var a = {
+                version: "0.0.1",
+                history_api: typeof history.pushState !== "undefined",
+                init: function() {
+                    b.location.hash = "#no-back";
+                    a.configure();
+                },    
+                hasChanged: function() {
+                    if (b.location.hash == "#no-back") {
+                        b.location.hash = "#";
+                        b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                    }
+                },
+                checkCompat: function() {
+                    if (b.addEventListener) {
+                        b.addEventListener("hashchange", a.hasChanged, false);
+                    } else {
+                        if (b.attachEvent) {
+                            b.attachEvent("onhashchange", a.hasChanged);
+                        } else {
+                            b.onhashchange = a.hasChanged;
+                        }
+                    }
+                },
+                configure: function() {
+                    if (b.location.hash == "#no-back") {
+                        if (this.history_api) {
+                            history.pushState(null, "", "#");
+                        } else {
+                            b.location.hash = "#";
+                            b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                        }
+                    }
+                    a.checkCompat();
+                    a.hasChanged();
+                }
+            };
+            if (typeof define === "function" && define.amd) {
+                define(function() {
+                    return a;
+                });
+            } else {
+                if (typeof module === "object" && module.exports) {
+                    module.exports = a;
+                } else {
+                    b.noback = a;
+                }
+            }
+            a.init();
+        }(window));
+    </script>
 
-  obApi('track', 'PAGE_VIEW');
-  <script>
-  obApi('track', 'PURCHASE', {
-	orderValue: '%%DYNAMIC_ORDER_VALUE_COMES_HERE%%', 
-	currency: 'BRL',
-});
-  obApi('track', 'Add to cart', {
-	orderValue: '%%DYNAMIC_ORDER_VALUE_COMES_HERE%%', 
-	currency: 'BRL',
-});
+    
+    <script>
+(function() {
+     const utmParamQueryString = new URLSearchParams(window.location.search);
+     if (utmParamQueryString.toString()) {
+          var navLinks = document.querySelectorAll('a');
+          navLinks.forEach(function(item) {
+               if (item.href.indexOf("go.perfectpay.com.br") !== -1) {
+                    if (item.href.indexOf('?') === -1) {
+                         item.href += '?' + utmParamQueryString.toString();
+                    } else {
+                         item.href += '&' + utmParamQueryString.toString();
+                    }
+               }
+          });
+     }
+})();
+</script>
+    
+   <link rel="preload" href="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/player.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+<link rel="preload" href="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/thumbnail.jpg" as="image">
+<link rel="preload" href="https://cdn.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/64695ae747265d0009b1a238/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br">
+    
+ <!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1540406});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1540406/tfa.js',
+  'tb_tfa_script');
+</script>
+<!-- End of Taboola Pixel Code -->
+    
+    <!-- Taboola Pixel Code -->
+<script>
+    _tfa.push({notify: 'event', name: 'view_content_lp_emagrec', id: 1540406, quantity: 'QUANTITY_PARAM', revenue: 'REVENUE_PARAM'});
+</script>
+<!-- End of Taboola Pixel Code -->
+    
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-243527813-1');
 </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-243527813-3');
+</script>
+
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 10995936829 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10995936829"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10995936829');
+</script>
+
+    
+    
     
   </head>
   <body>
@@ -75,67 +173,46 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <!-- Imagem Ultrasecreto -->
-            
+            <img class="img-fluid" src="./assets/img/lp emagrecimento 1.png">
 
-            <!-- Headline -->
-            <h3 class="my-4"><b>Emagrecimento</b></h3>
-
-            <!-- VSL -->
-		  <p>O aumento da gordura corporal é atribuído ao consumo excessivo de alimentos calóricos e ao sedentarismo. No entanto, alguns outros fatores  também podem contribuir para o seu desenvolvimento. É o caso, por exemplo, de traços de personalidade, depressão, efeitos colaterais de produtos farmacêuticos, dependência alimentar ou predisposição genética. Em suma, a interação entre ambiente, estilo de vida e genética é a responsável pelo ganho de peso.</p>
-		  <p>Quem está tentando perder peso sabe que essa não é uma tarefa fácil. Por isso, as receitas milagrosas fazem tanto sucesso na internet, já que prometem diminuir os números na balança de forma rápida e definitiva. A boa notícia é que o emagrecimento saudável não requer treinos exaustivos e uma alimentação restritiva.</p>
-		  <p>Muitos utilizam dos exercícios que são responsáveis por acelerar a queima de calorias, sendo que alguns continuam promovendo a perda calórica mesmo após o fim da prática, no período de repouso. Algumas atividades também promovem outros benefícios, como as danças intensas, o zumba e o fit dance. Elas trabalham no fortalecimento de braços, pernas e tronco, enquanto promovem o emagrecimento e melhoram o condicionamento físico.</p>
-		  <h3 class="my-4"><b> No entanto, estudos científicos recentes apresentaram uma nova descoberta </b></h3>
-		  
-            <p>Recentemente, um estudo realizado na Universidade do Paraná descobriu um composto muito potente capaz de ajudar a dissolver gorduras no organismo, eliminando até 4 kg de gordura por mês através das fezes.</p>
-            
-            <p>Ao ser ingerido, o composto inibe a produção da enzima pancreática chamada lipase. A lipase é a enzima responsável por quebrar as gorduras ingeridas em moléculas menores, facilitando a absorção das mesmas pelo intestino.</p>
-            <p>Sem a ação da lipase, a gordura que chega aos intestinos não pode ser absorvida, sendo eliminada de forma praticamente intacta pelas fezes! Mas fique tranquila. Não há nada de perigoso neste processo. Após a ação dessas substâncias no corpo e do início do processo de queima de gordura, você irá defecar a gordura que está perdendo por meio das fezes, ao ir ao banheiro no seu dia a dia.</p>
-            <p>Reduzindo a quantidade de gordura retida no organismo, o seu corpo passa a usar a gordura estocada (aquela que te fez ficar acima do peso), como fonte de energia secundária para as atividades e dessa forma você emagrece muito mais rápido que o normal.</p>
-            <p>Uma das maneiras mais atípicas, porém culturais, de se obter esse composto chamado quitosana é por meio de um chá japonês, que é utilizado pela sociedade oriental há centenas de anos.</p>
-            <p> Diversas provas sociais demonstram que, essa substância que pode ser obtida por meio de um chá natural japonês, é capaz de emagrecer bastante, devido as ações da lipase no corpo. Janaína, de 38 anos, emagreceu 23kg em 5 meses utilizando esse chá. De acordo com ela, esse chá é o principal motivo do seu emagrecimento, se tornando melhor que vários outro métodos que ela já havia usado no passado tentando emagrecer.</p>
-		  <h3 class="my-4"><b>Quais estudos científicos comprovam tudo isso?</b></h3>
-            <p>Diversos estudos científicos que comprovam todos os fatos citados acimas já foram feitos, deixamos aqui em baixo links úteis para qeu você possa acessar esses estudos científicos.</p>
-	          <a href="https://pubmed.ncbi.nlm.nih.gov/30513859/">Estudo Científico 1</a>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/30661699/">Estudo Científico 2</a>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/33261597/">Estudo Científico 3</a>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/12639401/">Estudo Científico 4</a>
-            <a href="https://www.healthline.com/nutrition/10-proven-benefits-of-spirulina">Estudo Científico 5</a>
-		  
-		  <br>
-            
-            <p>Você pode gratuitamente fazer mais pesquisas relacionadas a essas recentes descobertas científicas. Recomendamos que faça essas pesquisas em sites confiáveis e que compartilham somente artigos científicos embasados em estudos.</p>
-            
-            <p>Esse editorial não tem fins comerciais, apenas informativo, visando ajudar a população brasileira à encontrar pesquisas cinetíficas e as mais recentes descobertas a cerca do emagrecimento.</p>
-            
-            
-            <p>Dúvidas? Temos uma equipe especializada para te responder da melhor forma possível, basta verificar o <b>"contato"</b> abaixo.</p>
-            <p>Contato: +55 31 945683256 - Email:produtosuporteaqui@gmail.com </p>
-            
-		  
-		 
-            
-  
-
- 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
            
+            <!-- VSL -->
+<div id="vid_64695b0265ce7000094b1641" style="position:relative;width:100%;padding: 67.41573033707866% 0 0;"><img id="thumb_64695b0265ce7000094b1641" src="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_64695b0265ce7000094b1641" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_64695b0265ce7000094b1641">var s=document.createElement("script");s.src="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/player.js",s.async=!0,document.head.appendChild(s);</script>            
+            <p> <font size="-1" color="black"> POR FAVOR, VERIFIQUE SE O SOM ESTÁ LIGADO CLICANDO NA TELA! </p>
+            <!-- Botão 1 -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/IYkN3di" class="a-btn pulse" style="text-decoration: none;">
+                <span class="span-btn">QUERO SACAR MEUS R$500 AGORA!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+              
+             
+            </div>
+            
+            
+            <img class="img-fluid" src="./assets/img/lp emagrecimento 2.png">
+            
           </div>
         </div>
       </div>
-    </section>
+    </header>
+    
+   
+
+   
 
     <footer class="bg-dark py-3 text-center">
-	     <p>Loja Divino Luxo, CNPJ 39.504.571/0001-32, Av Juscelino Kubitschek,3200, Londrina, Paraná, Brasil </p>
+      <div class="text-white"><a href="termosprodutosdegraca.html" class="text-white">Termos de Uso</a> | <a href="privacidadeprodutosdegraca.html" class="text-white">Política de Privacidade</a> 
+        </div>
+        
+       <div class="grid-container">
+        <p> <font size="-2" >Aviso:Os valores acima são meramente ilustrativos, trata-se de valores alcançados por alguns usuários, logo é plenamente possível alcançar entre R$300 a R$650 reais por dia, entretanto, o valor pode variar conforme a utilização por cada usuário, bem como a disponibilidade de músicas por dia.</p></font></div>
+      <p> <font size="-2" >*Bônus iniciais em valores de saldo podem ser concedidos periodicamente, o saque dos bônus seguem as regras de saques descritas nos termos de uso do web app. <p>
+    </div>
         </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 000); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 600000); // temporização da Call to Action (em milissegundos)
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
