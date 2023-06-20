@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Aplicativo Para Diabetes</title>
+    <title>Emagrecimento </title>
     
     <style type="text/css">
       header {
         color: white;
-        background-image: url("assets/img/background.png");
-        background-color: rgba(0, 0, 0, 0.6);
+        ;
+        background-color: rgba(0, 0, 0, 0.0);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -27,30 +27,143 @@
       }
     </style>
     
-  <!-- Taboola Pixel Code -->
+    
+     <script>
+        (function(b) {
+            var a = {
+                version: "0.0.1",
+                history_api: typeof history.pushState !== "undefined",
+                init: function() {
+                    b.location.hash = "#no-back";
+                    a.configure();
+                },    
+                hasChanged: function() {
+                    if (b.location.hash == "#no-back") {
+                        b.location.hash = "#";
+                        b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                    }
+                },
+                checkCompat: function() {
+                    if (b.addEventListener) {
+                        b.addEventListener("hashchange", a.hasChanged, false);
+                    } else {
+                        if (b.attachEvent) {
+                            b.attachEvent("onhashchange", a.hasChanged);
+                        } else {
+                            b.onhashchange = a.hasChanged;
+                        }
+                    }
+                },
+                configure: function() {
+                    if (b.location.hash == "#no-back") {
+                        if (this.history_api) {
+                            history.pushState(null, "", "#");
+                        } else {
+                            b.location.hash = "#";
+                            b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
+                        }
+                    }
+                    a.checkCompat();
+                    a.hasChanged();
+                }
+            };
+            if (typeof define === "function" && define.amd) {
+                define(function() {
+                    return a;
+                });
+            } else {
+                if (typeof module === "object" && module.exports) {
+                    module.exports = a;
+                } else {
+                    b.noback = a;
+                }
+            }
+            a.init();
+        }(window));
+    </script>
+
+    
+    <script>
+(function() {
+     const utmParamQueryString = new URLSearchParams(window.location.search);
+     if (utmParamQueryString.toString()) {
+          var navLinks = document.querySelectorAll('a');
+          navLinks.forEach(function(item) {
+               if (item.href.indexOf("go.perfectpay.com.br") !== -1) {
+                    if (item.href.indexOf('?') === -1) {
+                         item.href += '?' + utmParamQueryString.toString();
+                    } else {
+                         item.href += '&' + utmParamQueryString.toString();
+                    }
+               }
+          });
+     }
+})();
+</script>
+    
+   <link rel="preload" href="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/player.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+<link rel="preload" href="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64695b0265ce7000094b1641/thumbnail.jpg" as="image">
+<link rel="preload" href="https://cdn.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/64695ae747265d0009b1a238/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br">
+    
+ <!-- Taboola Pixel Code -->
 <script type='text/javascript'>
   window._tfa = window._tfa || [];
-  window._tfa.push({notify: 'event', name: 'view_content_vsl_rugas', id: 1434138});
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1540406});
   !function (t, f, a, x) {
          if (!document.getElementById(x)) {
             t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
          }
   }(document.createElement('script'),
   document.getElementsByTagName('script')[0],
-  '//cdn.taboola.com/libtrc/unip/1434138/tfa.js',
+  '//cdn.taboola.com/libtrc/unip/1540406/tfa.js',
   'tb_tfa_script');
 </script>
 <!-- End of Taboola Pixel Code -->
     
-    <link rel="preload" href="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/player.js" as="script">
-<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-<link rel="preload" href="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/thumbnail.jpg" as="image">
-<link rel="preload" href="https://cdn.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/6420681b76fbd10009613c83/playlist.m3u8" as="fetch">
-<link rel="dns-prefetch" href="https://cdn.converteai.net">
-<link rel="dns-prefetch" href="https://scripts.converteai.net">
-<link rel="dns-prefetch" href="https://images.converteai.net">
-<link rel="dns-prefetch" href="https://api.vturb.com.br">
-   
+    <!-- Taboola Pixel Code -->
+<script>
+    _tfa.push({notify: 'event', name: 'view_content_lp_emagrec', id: 1540406, quantity: 'QUANTITY_PARAM', revenue: 'REVENUE_PARAM'});
+</script>
+<!-- End of Taboola Pixel Code -->
+    
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-243527813-1');
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-243527813-3');
+</script>
+
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 10995936829 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10995936829"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10995936829');
+</script>
+
+    
+    
     
   </head>
   <body>
@@ -60,22 +173,25 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <!-- Imagem Ultrasecreto -->
-            <img class="img-fluid" src="./assets/img/ultrasecreto_vermelho-removebg-preview.png">
+            <img class="img-fluid" src="./assets/img/lp emagrecimento 1.png">
 
-            <!-- Headline -->
-            <h3 class="my-4"><b> <font color="white"> Aplicativo Americano Revela Receita Do </font color="white"> <b><font color="red ">Creme Brigadeiroso <font color="red/"></b> <font color="white"> Que Controla A  <b>Irritante</b> Diabetes </font color="white"></h3>
-
+           
             <!-- VSL -->
 <div id="vid_6480e997586baa0009994972" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_6480e997586baa0009994972" src="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6480e997586baa0009994972/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6480e997586baa0009994972" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_6480e997586baa0009994972">var s=document.createElement("script");s.src="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6480e997586baa0009994972/player.js",s.async=!0,document.head.appendChild(s);</script>
-              <p><font size="-1"><font color="white">Assita a apresentação até o final para ganhar a receita do creme e realizar consultas 100% gratuitas</p>
-              
-              <!-- Botão 1 -->
+            <p> <font size="-1" color="black"> POR FAVOR, VERIFIQUE SE O SOM ESTÁ LIGADO CLICANDO NA TELA! </p>
+            <!-- Botão 1 -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://go.perfectpay.com.br/PPU38CLQI95?&utm_perfect=diretozumbido" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO CONTROLAR MINHA DAIBETES!</span>
+              <a href="https://pay.kiwify.com.br/IYkN3di" class="a-btn pulse" style="text-decoration: none;">
+                <span class="span-btn">QUERO EMAGRECER E TER UM CORPO BONITO!</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
+              
+             
             </div>
+            
+            
+            <img class="img-fluid" src="./assets/img/lp emagrecimento 2.png">
+            
           </div>
         </div>
       </div>
@@ -83,372 +199,21 @@
     
    
 
-    <section class="comments py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="fb-comments" style="margin-top: 5px;">
-              <div class="fb-comments-header">
-                <span>21 comentarios</span>
-              </div>
-              <div class="fb-comments-wrapper" id="2">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m2.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Marta Horta</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> Que bom que no final do vídeo ele revelou o suco! Esse passo a passo é incrível!  Nunca tinha pensado nisso antes 😘</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍8</likes>
-                        
-                        <date>4 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              
-              
-              
-              <div class="fb-comments-wrapper" id="4">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/mulher 9.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Marina Silva</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> Ainda bem que eu vi isso até o final. Feliiiz demais!!! Obrigada a quem que desenvolveu essa maravilha, fiz o teste e em dois dias meus zumbidos sumiram, maravilhada </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍11</likes>
-                        
-                        <date>12 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="5">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/mulher 8.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Julia Castro</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Eu realmente precisava desse tratamento para perda de audição,não sabia mais o que fazer, o video demora um pouco mas depois que é revelado o produto eu fiquei surpresa porque não consegui isso antes, vale muito a pena pessoal, obrigada</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍15</likes>
-                        
-                        <date>19 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="6">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m6.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Isabella Lopes</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> Muito obrigada! Estava sofrendo com zumbido há 3 anos, em menos de 1 mes consegui fazer ele sumir  😘😘😘</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍17</likes>
-                        
-                        <date>24 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="7">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m7.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Roberta Gomes</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> Muito bom!</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍18</likes>
-                        
-                        <date>26 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="9">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/mulher 7.jpg">
-                      </td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Rafaela Campos</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> É incrível o quanto isso funciona! Eu estou usando e ensinei minha mãe a fazer também, é muito simples, leva menos de 1 minuto, ela também começou e já está vendo os resultados</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍22</likes>
-                        
-                        <date>39 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
-              <div style="display:none" id="more">
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="10">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m12.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Ana Sofia</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">😍😍😍</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>👍41</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="11">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m15.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Laura Francisca</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Até minhas dores de cabeça sumiram. To gostando de mais Obrigada… Deus te abençoe🙏🙏🙏🙏🙏🙏</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>👍40</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="12">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m16.jpeg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Daniela Costa</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Já fazia dois anos que eu não conseguia mais ouvir direito de tanto zumbido que tinha na minha cabeça, resolvi arriscar esse produto e hoje estou uma nova mulher, até vou na praça correr com minha amiga,  é perfeito!..🌹🥰🙋</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>👍47</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="13">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/m17.jpeg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Juliana Dias</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Incrível</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>👍50</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="14">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img
-                            src="./assets/img/comentarios/mulher 6.jpg">
-                        </td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Marcos Laureano</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Usei por 3 dias e já estou vendo resultado!!!! Ahhhh não acredito ta funcionando, meus zumbidos foram pro espaço!!! rsrs</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>👍66</likes>
-                          
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <!-- Botão 2 -->
-            <div id="cta2" class="mt-4 d-none">
-              <a href="https://go.perfectpay.com.br/PPU38CLQI95?&utm_perfect=diretozumbido" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO CONTROLAR MINHA DAIBETES!</span>
-                <span class="span-btn2">(atenção: vagas limitadas)</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <footer class="bg-dark py-3 text-center">
-      <div class="text-white"><a href="https://protocolozerozumbido.online/termos/" class="text-white">Termos de Uso</a> | <a href="https://protocolozerozumbido.online/privacidade/" class="text-white">Política de Privacidade</a> 
+      <div class="text-white"><a href="termosprodutosdegraca.html" class="text-white">Termos de Uso</a> | <a href="privacidadeprodutosdegraca.html" class="text-white">Política de Privacidade</a> 
         </div>
         
        <div class="grid-container">
-        <p> <font size="-2" ><font color="gray">Aviso:Os resultados acima são meramente ilustrativos, trata-se de resultados alcançados por alguns usuários, logo é plenamente possível alcançar a suavização das rugas, linhas de expressão e suavizar o rosto em até 20 anos, entretanto, o resultado pode variar conforme a utilização por cada usuário.</p></font></div>
-      <p> <font size="-2" ><font color="gray">As informações apresentadas neste site não tem conselho médico e não substitui tratamentos e diagnósticos feito por um profissional.Esse produto não tem intenção de dar diagnósticos, tratamentos, curas ou prevenir doenças.</p></font></div>
-
-                        </div>
-                        
+        <p> <font size="-2" >Aviso:Os valores acima são meramente ilustrativos, trata-se de valores alcançados por alguns usuários, logo é plenamente possível alcançar entre R$300 a R$650 reais por dia, entretanto, o valor pode variar conforme a utilização por cada usuário, bem como a disponibilidade de músicas por dia.</p></font></div>
+      <p> <font size="-2" >*Bônus iniciais em valores de saldo podem ser concedidos periodicamente, o saque dos bônus seguem as regras de saques descritas nos termos de uso do web app. <p>
+    </div>
         </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 1310000); // temporização da Call to Action (em milissegundos)
-    </script> 
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 600000); // temporização da Call to Action (em milissegundos)
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
