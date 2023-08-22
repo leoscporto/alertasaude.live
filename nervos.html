@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Fórmula Banana</title>
+    <title>Fim Do Zumbido</title>
     
     <style type="text/css">
       header {
         color: white;
-       
-        background-color: rgba(0, 0, 0, 0.0);
+        background-image: url("assets/img/background.png");
+        background-color: rgba(0, 0, 0, 0.6);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -27,123 +27,30 @@
       }
     </style>
     
-    
-     <script>
-        (function(b) {
-            var a = {
-                version: "0.0.1",
-                history_api: typeof history.pushState !== "undefined",
-                init: function() {
-                    b.location.hash = "#no-back";
-                    a.configure();
-                },    
-                hasChanged: function() {
-                    if (b.location.hash == "#no-back") {
-                        b.location.hash = "#";
-                        b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
-                    }
-                },
-                checkCompat: function() {
-                    if (b.addEventListener) {
-                        b.addEventListener("hashchange", a.hasChanged, false);
-                    } else {
-                        if (b.attachEvent) {
-                            b.attachEvent("onhashchange", a.hasChanged);
-                        } else {
-                            b.onhashchange = a.hasChanged;
-                        }
-                    }
-                },
-                configure: function() {
-                    if (b.location.hash == "#no-back") {
-                        if (this.history_api) {
-                            history.pushState(null, "", "#");
-                        } else {
-                            b.location.hash = "#";
-                            b.location.href = "https://aplicativosecreto.live/b"; //LINK PARA REDIRECIONAR AQUI
-                        }
-                    }
-                    a.checkCompat();
-                    a.hasChanged();
-                }
-            };
-            if (typeof define === "function" && define.amd) {
-                define(function() {
-                    return a;
-                });
-            } else {
-                if (typeof module === "object" && module.exports) {
-                    module.exports = a;
-                } else {
-                    b.noback = a;
-                }
-            }
-            a.init();
-        }(window));
-    </script>
-
-    
-    <script>
-(function() {
-     const utmParamQueryString = new URLSearchParams(window.location.search);
-     if (utmParamQueryString.toString()) {
-          var navLinks = document.querySelectorAll('a');
-          navLinks.forEach(function(item) {
-               if (item.href.indexOf("go.perfectpay.com.br") !== -1) {
-                    if (item.href.indexOf('?') === -1) {
-                         item.href += '?' + utmParamQueryString.toString();
-                    } else {
-                         item.href += '&' + utmParamQueryString.toString();
-                    }
-               }
-          });
-     }
-})();
+  <!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'view_content_vsl_zumbido', id: 1540406});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1540406/tfa.js',
+  'tb_tfa_script');
 </script>
+<!-- End of Taboola Pixel Code -->
+ 
     
-   <link rel="preload" href="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/640b94b425bb810009cab14f/player.js" as="script">
+    <link rel="preload" href="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/player.js" as="script">
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-<link rel="preload" href="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/640b94b425bb810009cab14f/thumbnail.jpg" as="image">
-<link rel="preload" href="https://cdn.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/640b9476e690640009c2c0bf/playlist.m3u8" as="fetch">
+<link rel="preload" href="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/thumbnail.jpg" as="image">
+<link rel="preload" href="https://cdn.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/6420681b76fbd10009613c83/playlist.m3u8" as="fetch">
 <link rel="dns-prefetch" href="https://cdn.converteai.net">
 <link rel="dns-prefetch" href="https://scripts.converteai.net">
 <link rel="dns-prefetch" href="https://images.converteai.net">
 <link rel="dns-prefetch" href="https://api.vturb.com.br">
-    
-
-    
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-243527813-1');
-</script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243527813-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-243527813-3');
-</script>
-
-    
-    <!-- Global site tag (gtag.js) - Google Ads: 10995936829 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10995936829"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-10995936829');
-</script>
-
- 
     
   </head>
   <body>
@@ -152,35 +59,20 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-           
-            
-            
-            
             <!-- Imagem Ultrasecreto -->
-           
-            <div class="text-16578133316969nqkcl-element text">
-<p>
-Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span class="md"></span></b></span>&nbsp;foram selecionadas para participar
-</p>
-</div>
-</div>
-</div>
-</div>
-<div class="division-1657813536866__wrapper">
+            <img class="img-fluid" src="./assets/img/ultrasecreto_vermelho-removebg-preview.png">
 
-
-
-  
             <!-- Headline -->
-            <h3 class="my-4"><font color="black"><b>"BASTA TOMAR</font> <font color="red">APENAS UM COPO POR DIA</font><font color="black">", DIZ CIENTISTA BRASILEIRO!</b></font></h3>
-           <p><font size="-1"><font color="black"> Segredo revelado...</font></p>
-
+            <h3 class="my-4"><b> <font color="white"> Acabe com o zumbido <b>Irritante</b> causado pelo </font color="white"> <b><font color="red ">Órgão Oculto! <font color="red/"></b> </h3>
+            <p>ESpecialista em saúde revelou o segredo desse órgão que causa o barulho horrível</p>
             <!-- VSL -->
-<div id="vid_64b4560d037324000991ef5b" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_64b4560d037324000991ef5b" src="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64b4560d037324000991ef5b/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_64b4560d037324000991ef5b" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_64b4560d037324000991ef5b">var s=document.createElement("script");s.src="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/64b4560d037324000991ef5b/player.js",s.async=!0,document.head.appendChild(s);</script>
-            <!-- Botão 1 -->
+<div id="vid_6420685861e7620008656be8" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_6420685861e7620008656be8" src="https://images.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6420685861e7620008656be8" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_6420685861e7620008656be8">var s=document.createElement("script");s.src="https://scripts.converteai.net/2904f3fd-cb57-435e-b817-386e90503c72/players/6420685861e7620008656be8/player.js",s.async=!0,document.head.appendChild(s);</script>            
+           <p><font size="-1"><font color="white">🦻Segredo para o FIM do ZUMBIDO será revelado no fim dessa apresentação curta</p>
+              
+              <!-- Botão 1 -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://go.perfectpay.com.br/PPU38CL5AJ0?&utm_perfect=direto" class="a-btn pulse" style="text-decoration: none;">
-                <span class="span-btn">QUERO EMAGRECER AGORA!</span>
+              <a href="https://go.perfectpay.com.br/PPU38CLQI95?&utm_perfect=diretozumbido" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO PARAR DE SOFRER COM ZUMBIDO!</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
             </div>
@@ -212,7 +104,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Esse vídeo me ajudou muito. Reduzi 4 números 😘</td>
+                      <td class="fb-comments-comment-text"> Que bom que no final do vídeo ele revelou o suco! Esse passo a passo é incrível!  Nunca tinha pensado nisso antes 😘</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -228,49 +120,23 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                   </tbody>
                 </table>
               </div>
-              <div class="fb-comments-wrapper" id="3">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m3.jpeg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Maria Aparecida</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text"> To fazendo faz 10 semana e já vi mt diferença, minha calça que antes ficava apertada, ñ fica mais, tenho mais energia, sou mais produtiva e o melhor, to perdendo mt banha kk </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>👍9</likes>
-                        
-                        <date>5 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              
+              
+              
               <div class="fb-comments-wrapper" id="4">
                 <table class="fb-comments-comment">
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m4.jpeg"></td>
+                          src="./assets/img/comentarios/mulher 9.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Elizabeth Dias</name>
+                          <name>Marina Silva</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Oi . Me chamo Elizabeth e tenho 42 anos. Eu cheguei bater 113 antes de ver esse vídeo, meus exames estavam péssimos e eu tava quase diabética. Faz 1 mês e meio que eu to fazendo todos os dias de manhã , e já perdi 6kg, minha pressão tá normal dnv e minha autoestima té voltando cada dia mais. Muito obrigada </td>
+                      <td class="fb-comments-comment-text"> Ainda bem que eu vi isso até o final. Feliiiz demais!!! Obrigada a quem que desenvolveu essa maravilha, fiz o teste e em dois dias meus zumbidos sumiram, maravilhada </td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -291,15 +157,15 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m7.jpeg"></td>
+                          src="./assets/img/comentarios/mulher 8.jpg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Flávia Araújo</name>
+                          <name>Julia Castro</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Isso é uma maravilha! Comigo tbm funcionou mt, ja to reparando minhas calças ficando frouxas... Obg</td>
+                      <td class="fb-comments-comment-text">Eu realmente precisava desse tratamento para perda de audição,não sabia mais o que fazer, o video demora um pouco mas depois que é revelado o produto eu fiquei surpresa porque não consegui isso antes, vale muito a pena pessoal, obrigada</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -323,12 +189,12 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                           src="./assets/img/comentarios/m6.jpeg"></td>
                       <td>
                         <font class="fb-comments-comment-name">
-                          <name>Sonia Hernández</name>
+                          <name>Isabella Lopes</name>
                         </font>
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Em janeiro eu me pesei e fiquei devastada, eu tava com 109kg. Faz 3 mes que encontrei esse video e resolvi dar um jeito na minha vida. Hoje to aqui pra agradecer. Eu perdi 13kg e agr pareço outra pessoa! Gratidão...😘😘😘</td>
+                      <td class="fb-comments-comment-text"> Muito obrigada! Estava sofrendo com zumbido há 3 anos, em menos de 1 mes consegui fazer ele sumir  😘😘😘</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -357,7 +223,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Cortei o refrigerante e resolvi experimentar essa bebida conforme o video ensina. Eu amei mt, é mt gosto, simples de fazer e o resultado no espelho dps de algumas semanas é incrivel</td>
+                      <td class="fb-comments-comment-text"> Muito bom!</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -378,7 +244,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                   <tbody>
                     <tr>
                       <td rowspan="3" class="fb-comments-comment-img"><img
-                          src="./assets/img/comentarios/m9.jpeg">
+                          src="./assets/img/comentarios/mulher 7.jpg">
                       </td>
                       <td>
                         <font class="fb-comments-comment-name">
@@ -387,7 +253,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                       </td>
                     </tr>
                     <tr>
-                      <td class="fb-comments-comment-text"> Como é legal ver tanta gente tentando entrar em forma. Eu tava sofrendo pra conseguir perder alguns quilinhos fzendo dieta restritiva e me matando na academia... Mt obrigada por compartilhar esse video. Comecei a fazer o truque da banana e já perdi 3 quilo essa semana</td>
+                      <td class="fb-comments-comment-text"> É incrível o quanto isso funciona! Eu estou usando e ensinei minha mãe a fazer também, é muito simples, leva menos de 1 minuto, ela também começou e já está vendo os resultados</td>
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
@@ -449,7 +315,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Funciona direitinho se vc fazer conforme explica. Eu por exemplo perdi 8kg. Além disso faz muito bem para outras areas da nossa saúde 🙏🙏🙏🙏🙏🙏</td>
+                        <td class="fb-comments-comment-text">Até minhas dores de cabeça sumiram. To gostando de mais Obrigada… Deus te abençoe🙏🙏🙏🙏🙏🙏</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -479,7 +345,7 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Ameeeiiii ..🌹🥰🙋</td>
+                        <td class="fb-comments-comment-text">Já fazia dois anos que eu não conseguia mais ouvir direito de tanto zumbido que tinha na minha cabeça, resolvi arriscar esse produto e hoje estou uma nova mulher, até vou na praça correr com minha amiga,  é perfeito!..🌹🥰🙋</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -533,12 +399,12 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
                         </td>
                         <td>
                           <font class="fb-comments-comment-name">
-                            <name>Marcia Laureano</name>
+                            <name>Marcos Laureano</name>
                           </font>
                         </td>
                       </tr>
                       <tr>
-                        <td class="fb-comments-comment-text">Emagreci 8kg graças a esse truque incrível rsrs</td>
+                        <td class="fb-comments-comment-text">Usei por 3 dias e já estou vendo resultado!!!! Ahhhh não acredito ta funcionando, meus zumbidos foram pro espaço!!! rsrs</td>
                       </tr>
                       <tr>
                         <td class="fb-comments-comment-actions">
@@ -558,57 +424,31 @@ Você e algumas pessoas próximas de&nbsp;<span style="color:#000000"><b><span c
             </div>
             <!-- Botão 2 -->
             <div id="cta2" class="mt-4 d-none">
-              <a href="https://go.perfectpay.com.br/PPU38CL5AJ0?&utm_perfect=direto" class="a-btn pulse" style="text-decoration: none;">
-                <span class="span-btn">QUERO SACAR MEUS R$500 AGORA!</span>
+              <a href="https://go.perfectpay.com.br/PPU38CLQI95?&utm_perfect=diretozumbido" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO PARAR DE SOFRER COM ZUMBIDO!</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
             </div>
-            
-            
-            
-            
-            
-            
-            <style>
-              .pulse {
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-            </style>
-            
-            
-            
-            
           </div>
         </div>
       </div>
     </section>
 
     <footer class="bg-dark py-3 text-center">
-      <div class="text-white"><a href="termosprodutosdegraca.html" class="text-white">Termos de Uso</a> | <a href="privacidadeprodutosdegraca.html" class="text-white">Política de Privacidade</a> 
+      <div class="text-white"><a href="https://protocolozerozumbido.online/termos/" class="text-white">Termos de Uso</a> | <a href="https://protocolozerozumbido.online/privacidade/" class="text-white">Política de Privacidade</a> 
         </div>
         
        <div class="grid-container">
-        <p> <font size="-2" >Aviso:Os valores acima são meramente ilustrativos, trata-se de valores alcançados por alguns usuários, logo é plenamente possível alcançar entre R$300 a R$650 reais por dia, entretanto, o valor pode variar conforme a utilização por cada usuário, bem como a disponibilidade de músicas por dia.</p></font></div>
-      <p> <font size="-2" >*Bônus iniciais em valores de saldo podem ser concedidos periodicamente, o saque dos bônus seguem as regras de saques descritas nos termos de uso do web app. <p>
-    </div>
+        <p> <font size="-2" ><font color="gray">Aviso:Os resultados acima são meramente ilustrativos, trata-se de resultados alcançados por alguns usuários, logo é plenamente possível alcançar a suavização das rugas, linhas de expressão e suavizar o rosto em até 20 anos, entretanto, o resultado pode variar conforme a utilização por cada usuário.</p></font></div>
+      <p> <font size="-2" ><font color="gray">As informações apresentadas neste site não tem conselho médico e não substitui tratamentos e diagnósticos feito por um profissional.Esse produto não tem intenção de dar diagnósticos, tratamentos, curas ou prevenir doenças.</p></font></div>
+
+                        </div>
+                        
         </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 770000); // temporização da Call to Action (em milissegundos)
-    </script>
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 1310000); // temporização da Call to Action (em milissegundos)
+    </script> 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
